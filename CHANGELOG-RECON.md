@@ -6,7 +6,7 @@ This is an enhanced fork of the [official MotherDuck MCP Server](https://github.
 
 **Package Name:** `mcp-server-motherduck-recon`
 **Command:** `mcp-server-motherduck-recon`
-**Fork:** https://github.com/DonKelloggRecon/mcp-server-motherduck
+**Fork:** https://github.com/DonKelloggRecon/mcp-server-motherduck-recon
 
 ---
 
@@ -187,13 +187,13 @@ packages = ["src/mcp_server_motherduck"]
 ### From GitHub (Recommended)
 
 ```bash
-pip install git+https://github.com/DonKelloggRecon/mcp-server-motherduck.git
+pip install git+https://github.com/DonKelloggRecon/mcp-server-motherduck-recon.git
 ```
 
 ### From Source (Development)
 
 ```bash
-git clone https://github.com/DonKelloggRecon/mcp-server-motherduck.git
+git clone https://github.com/DonKelloggRecon/mcp-server-motherduck-recon.git
 cd mcp-server-motherduck
 pip install -e .
 ```

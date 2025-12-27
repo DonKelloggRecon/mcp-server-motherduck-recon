@@ -25,7 +25,7 @@ You should see `Python 3.10.x` or higher. If not, [install Python](https://www.p
 Open a terminal (Command Prompt, PowerShell, or Terminal) and run:
 
 ```bash
-pip install git+https://github.com/DonKelloggRecon/mcp-server-motherduck.git
+pip install git+https://github.com/DonKelloggRecon/mcp-server-motherduck-recon.git
 ```
 
 This installs the `mcp-server-motherduck-recon` command and all dependencies (including DuckDB).
@@ -209,7 +209,7 @@ Run the command manually to see the actual error.
 ### Updating to Latest Version
 
 ```bash
-pip install --upgrade git+https://github.com/DonKelloggRecon/mcp-server-motherduck.git
+pip install --upgrade git+https://github.com/DonKelloggRecon/mcp-server-motherduck-recon.git
 ```
 
 ---
@@ -238,6 +238,6 @@ If you want to prevent accidental data modifications:
 
 ## Support
 
-- **Issues with this fork**: [GitHub Issues](https://github.com/DonKelloggRecon/mcp-server-motherduck/issues)
+- **Issues with this fork**: [GitHub Issues](https://github.com/DonKelloggRecon/mcp-server-motherduck-recon/issues)
 - **MotherDuck documentation**: [docs.motherduck.com](https://docs.motherduck.com/)
 - **Claude Desktop help**: [support.anthropic.com](https://support.anthropic.com/)
