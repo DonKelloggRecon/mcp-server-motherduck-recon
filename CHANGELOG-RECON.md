@@ -184,18 +184,42 @@ packages = ["src/mcp_server_motherduck"]
 
 ## Installation
 
+### From GitHub (Recommended)
+
 ```bash
-# Clone the fork
+pip install git+https://github.com/DonKelloggRecon/mcp-server-motherduck.git
+```
+
+### From Source (Development)
+
+```bash
 git clone https://github.com/DonKelloggRecon/mcp-server-motherduck.git
 cd mcp-server-motherduck
-
-# Install in development mode
 pip install -e .
 ```
 
 ## Configuration
 
-Add to your Claude Code MCP settings:
+### Claude Desktop App
+
+Add to `%APPDATA%\Claude\claude_desktop_config.json` (Windows) or `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS):
+
+```json
+{
+  "mcpServers": {
+    "motherduck": {
+      "command": "mcp-server-motherduck-recon",
+      "args": [
+        "--saas-mode",
+        "--motherduck-token",
+        "YOUR_TOKEN"
+      ]
+    }
+  }
+}
+```
+
+### Claude Code CLI
 
 ```bash
 claude mcp add motherduck-recon -- mcp-server-motherduck-recon --saas-mode --motherduck-token YOUR_TOKEN
